@@ -1,4 +1,4 @@
-# Avalon Stream with NodeJS + Javalon + Axios + Redis + Mysql
+# Avalon Stream with Express + Javalon + Axios + Redis + Mysql
 
 Stream the Avalon Chain using Axios and store the current block number into a Redis server giving you a good base to build an API and a stream reader which does not miss blocks. 
 Also provide an example of filtering transaction and a MYSQL configuration if you are using a database.
