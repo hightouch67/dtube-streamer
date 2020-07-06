@@ -9,13 +9,13 @@ const port = process.env.PORT || 4000;
 const server = app.listen(port, () => console.log(`[start] Listening on ${port}`));
 
 //** Start with a custom block number at start (remove after the first use) */
-const customBlockNum = 225656;
-redis.setAsync('block_height', customBlockNum).then(() => {
-  handleBlock(customBlockNum);
-}).catch((err) => {
-  console.error("Failed to set 'block_height' on Redis", err);
-  handleBlock(customBlockNum);
-});
+// const customBlockNum = 225656;
+// redis.setAsync('block_height', customBlockNum).then(() => {
+//   handleBlock(customBlockNum);
+// }).catch((err) => {
+//   console.error("Failed to set 'block_height' on Redis", err);
+//   handleBlock(customBlockNum);
+// });
 
 let lastBlockNum = 0;
 const stream = setInterval(() => {
