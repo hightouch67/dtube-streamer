@@ -16,7 +16,7 @@ Put your Mysql Server info into db.js
 
 Start the stream 
 ```bash
-npm run
+npm run start
 ```
 
 ## Contributing
