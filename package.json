@@ -10,7 +10,7 @@
     "prettier": "prettier 'src/**/*.js' 'helpers/*.js' 'start.js' --list-different"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.5",
     "connection-string": "^2.7.1",
     "event-stream": "3.3.4",
